@@ -1,7 +1,6 @@
 package br.com.dio.desafio.domínio;
 
 public abstract class Conteudo {
-
     protected static final double XP_PADRÃO = 10d;
 
     private String titulo;
@@ -24,4 +23,6 @@ public abstract class Conteudo {
     public void setDescrição(String descrição) {
         this.descrição = descrição;
     }
+
 }
+
